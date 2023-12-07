@@ -1,0 +1,42 @@
+*{
+ font-family:sans-serif;
+}
+
+body{
+    background-color: #ccc;
+    height: 50%;
+}
+
+.cookies-msg{
+    width: 80%;
+    background: rgb(90, 76, 76);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50% );
+    border-radius: 15px;
+    
+}
+.cookies-msg .cookies-txt{
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   padding: 20px;
+}
+.cookies-msg.cookies-btn a{
+    margin-left: 40px;
+}
+.cookies-msg .cookies-btn a{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.cookies-msg .cookies-btn a:hover{
+    transform:scale(0.9);
+}
+
